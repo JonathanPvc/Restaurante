@@ -10,28 +10,33 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
-$light: #ffffff;
-$gray: #c4ccde;
+.icono{
+  display:flex;
+}
+
 
 .flex{
   display: flex;
 }
 
 .navbar {
-  background-color: $light;
+  background-color: #a8a29e ;
   padding: 1rem 2rem;
-  border-bottom: 1px solid $gray;
+  border-bottom: 3px solid ;
 }
 
 .sidebar{
+  background-color: #a8a29e ;
   width: 14rem;
   height: calc(100vh - 52px);
-  border-right: 1px solid $gray;
+  border-right: 3px solid black;
+  padding-top : 20px;
+  padding-left: 30px;
   ul{
     list-style: none;
     padding: 1rem 2 rem;
       li{
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
         a{
           text-decoration: none;
         }

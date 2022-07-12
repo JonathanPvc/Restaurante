@@ -1,18 +1,23 @@
 import { Link } from 'react-router-dom';
+import * as FaIcons from 'react-icons/fa';
+
 
 const Sidebar = () =>{
 
     return (
         <div className="sidebar">
            <ul>
-            <li>
-                <Link to='/home' className='text-gray-500 mt-3' >Productos </Link>
+           <li>
+                <Link to='/home' >  <FaIcons.FaHome className='icono' /> Home </Link>
             </li>
             <li>
-                <Link to='/category' className='text-gray-500 mt-3'>Categoria</Link>
+                <Link to='/productos' ><FaIcons.FaHamburger /> Productos </Link>
             </li>
             <li>
-                <Link to='/typeofline' className='text-gray-500 mt-3'>Tipo De Linea</Link>
+                <Link to='/category' ><FaIcons.FaDelicious/>Categoria </Link>
+            </li>
+            <li>
+                <Link to='/typeofline'><FaIcons.FaAccusoft/>Tipo De Linea</Link>
             </li>
            </ul>
         </div>

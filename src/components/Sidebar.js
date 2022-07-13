@@ -8,16 +8,16 @@ const Sidebar = () =>{
         <div className="sidebar">
            <ul>
            <li>
-                <Link to='/home' >  <FaIcons.FaHome className='icono' /> Home </Link>
+                <Link to='/' >  <FaIcons.FaHome  /> Home </Link>
             </li>
             <li>
-                <Link to='/productos' ><FaIcons.FaHamburger /> Productos </Link>
+                <Link to='/products' ><FaIcons.FaHamburger /> Products </Link>
             </li>
             <li>
-                <Link to='/category' ><FaIcons.FaDelicious/>Categoria </Link>
+                <Link to='/category' ><FaIcons.FaDelicious/>Category </Link>
             </li>
             <li>
-                <Link to='/typeofline'><FaIcons.FaAccusoft/>Tipo De Linea</Link>
+                <Link to='/typeofline'><FaIcons.FaAccusoft/>Type Of Line</Link>
             </li>
            </ul>
         </div>

@@ -1,25 +1,28 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 
 
-const Sidebar = () =>{
+const Sidebar = () => {
 
     return (
-        <div className="sidebar">
-           <ul>
-           <li>
-                <Link to='/' >  <FaIcons.FaHome  /> Home </Link>
-            </li>
-            <li>
-                <Link to='/products' ><FaIcons.FaHamburger /> Products </Link>
-            </li>
-            <li>
-                <Link to='/category' ><FaIcons.FaDelicious/>Category </Link>
-            </li>
-            <li>
-                <Link to='/typeofline'><FaIcons.FaAccusoft/>Type Of Line</Link>
-            </li>
-           </ul>
+
+        <div className='sidebar'>
+
+            <ul>
+                <li>
+                    <NavLink to='/' exact className='rounded ' activeClassName='active'><FaIcons.FaHome className='icono'/>Home</NavLink>
+                </li>
+                <li>
+                    <NavLink to='/products' className='rounded' exact activeClassName='active'><FaIcons.FaHamburger /> Products </NavLink>
+                </li>
+                <li>
+                    <NavLink to='/category' className='rounded' exact activeClassName='active'><FaIcons.FaDelicious />Category </NavLink>
+                </li>
+                <li>
+                    <NavLink to='/typeofline' className='rounded' exact activeClassName='active'><FaIcons.FaAccusoft />Type Of Line</NavLink>
+                </li>
+            </ul>
+
         </div>
     )
 }

@@ -9,7 +9,7 @@ export const Dashboard = ({children}) => {
       <NavBar />
       <div className='flex'>
         <Sidebar />
-        <div className='content'>
+        <div className='content w-full'>
          {children}
 
         </div>

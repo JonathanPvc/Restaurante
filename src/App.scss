@@ -10,9 +10,7 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
-.icono{
-  display:flex;
-}
+
 
 
 .flex{
@@ -20,18 +18,21 @@ body{
 }
 
 .navbar {
-  background-color: #a8a29e ;
+  background-color: light ;
   padding: 1rem 2rem;
-  border-bottom: 3px solid ;
+  border-bottom: 3px solid #e7e9eb;
+  
 }
 
 .sidebar{
-  background-color: #a8a29e ;
-  width: 14rem;
   height: calc(100vh - 52px);
-  border-right: 3px solid black;
+  
+  background-color: light;
+  width: 11rem;
+  border-right: 3px solid #e7e9eb;
+  border-top: #e7e9eb;
   padding-top : 20px;
-  padding-left: 30px;
+  padding-left: 50px;
   ul{
     list-style: none;
     padding: 1rem 2 rem;
@@ -39,6 +40,10 @@ body{
         margin-bottom: 3rem;
         a{
           text-decoration: none;
+          &.active{
+            background-color: lightgray;
+            color: rgb(0, 0, 0);
+          }
         }
       }
   }

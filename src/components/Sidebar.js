@@ -10,7 +10,7 @@ const Sidebar = () => {
 
             <ul>
                 <li>
-                    <NavLink to='/' exact className='rounded ' activeClassName='active'><FaIcons.FaHome className='icono'/>Home</NavLink>
+                    <NavLink to='/' exact className='rounded ' activeClassName='active'><FaIcons.FaHome className='justify-between'/>Home</NavLink>
                 </li>
                 <li>
                     <NavLink to='/products' className='rounded' exact activeClassName='active'><FaIcons.FaHamburger /> Products </NavLink>

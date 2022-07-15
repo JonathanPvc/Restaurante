@@ -1,5 +1,5 @@
 import Home from "../pages/Home";
-import Productos from "../pages/Productos";
+import Productos from "../pages/Products";
 import Category from '../pages/Category'
 import TypeOfLine from '../pages/TypeOfLine'
 

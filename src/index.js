@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Category from './pages/Category';
+import FormProduct from './formularios/products';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

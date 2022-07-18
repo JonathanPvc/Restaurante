@@ -4,16 +4,14 @@
 
 
 body{
-  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  overflow: hidden;
   height: 100%;
-  padding: 30px;
-  background-color: rgb(234, 88 ,12);
-  border-radius: 10px;
   
 }
 
 
-
+/*
 
 .flex{
   display: flex;
@@ -39,7 +37,7 @@ body{
 }
 
 .sidebar{
-  height: 100vh;
+  height: 95vh;
   background-color: light;
   width: 11rem;
   padding-top : 20px;

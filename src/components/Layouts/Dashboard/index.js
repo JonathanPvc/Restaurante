@@ -6,18 +6,16 @@ import Sidebar from '../../Sidebar';
 export const Dashboard = ({ children }) => {
   return (
     <>
-      <div className=' flex  h-full bg-slate-500 '>
-        <div className='flex w-full bg-orange-400 rounded-3xl m-4 '>
+        <div className='flex w-full bg-orange-400 h-screen'>
           <Sidebar />
-          <div className='w-full'>
-            <div className='bg-orange-200 h-4/5 rounded-3xl m-6 h-screen'>
+          <div className='w-full p-5'>
+            <div className='bg-orange-200 h-full rounded-3xl  h-full p-5'>
               {children}
             </div>
 
           </div>
 
         </div>
-      </div>
 
     </>
   )

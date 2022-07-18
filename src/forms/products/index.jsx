@@ -1,35 +1,37 @@
 import React from "react";
 import { Formik } from "formik";
-import { ToggleCustom } from "./toggle";
+import { ToggleCustom } from "../../components/Toogle";
 
 import "./styles.css";
 
 const FormProduct = () => {
   return (
     <Formik>
-      <form className="flex justify-center flex-col items-center">
-        <h1 className="h1 mb-10"> PRODUCTOS </h1>
-        <div className="w-1/4 flex flex-col justify-center border-solid">
+      <form className="form-product__container">
+        <h1 className="h1"> PRODUCTOS </h1>
+        <div className="grid grid-cols-3 gap-5 form-product__container--forms  justify-center items-center">
           <div className="flex justify-between mb-5">
-            <label htmlFor="nombre">Nombre: </label>
-            <input type="text" id="nombre" name="name" placeholder=" "></input>
+            {/* <label htmlFor="nombre">Nombre: </label> */}
+            <input
+              type="text"
+              id="nombre"
+              name="name"
+              placeholder="   Nombre "
+            ></input>
           </div>
           <div className="flex justify-between mb-5">
-            <label htmlFor="descripcion">Descripcion: </label>
+            {/* <label htmlFor="descripcion">Descripcion: </label> */}
             <input
               type="text"
               id="descripcion"
               name="descripcion"
-              placeholder=" "
+              placeholder="   Descripcion "
             ></input>
           </div>
           <div className="flex justify-between mb-5">
-            <label htmlFor="estatus">Estatus: </label>{" "}
-            <ToggleCustom title="Stock" />
-          </div>
-          <div className="flex justify-between mb-5">
-            <label htmlFor="bowl">Bowl: </label>{" "}
-            <ToggleCustom title="Permitido" />
+            <ToggleCustom title="Estatus:" />
+
+            <ToggleCustom title="Bowl:" />
           </div>
           <div className="flex justify-between mb-5">
             <label htmlFor="precio unit">Precio unit: </label>
@@ -64,7 +66,7 @@ const FormProduct = () => {
               type="text"
               id="unidad"
               name="unidad"
-              placeholder="Ej: kg, gr, lb "
+              placeholder="   Ej: kg, gr, lb "
             ></input>
           </div>
           <div className="flex justify-between mb-5">

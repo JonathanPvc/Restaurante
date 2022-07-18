@@ -1,71 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
-
-
-
-body{
-  font-family: 'Rubik', sans-serif;
-  height: 100%;
-  padding: 30px;
-  background-color: rgb(234, 88 ,12);
-  border-radius: 10px;
-  
-}
-
-
-
-
-.flex{
-  display: flex;
-}
-/*
-.sidebarorig{
-  height: calc(100vh - 52px);
-  background-color: light;
-  width: 11rem;
-  border-right: 3px solid #e7e9eb;
-  border-top: #e7e9eb;
-  padding-top : 20px;
-  padding-left: 50px;
-  
-}*/
-
-
-.navbar {
-  background-color: light ;
-  padding: 1rem 10rem;
-  border-bottom: 3px solid #e7e9eb;
-  
-}
-
-.sidebar{
-  height: 100vh;
-  background-color: light;
-  width: 11rem;
-  padding-top : 20px;
-  padding-left: 50px;
-  ul{
-    list-style: none;
-    padding: 1rem 2 rem;
-      li{
-        margin-bottom: 3rem;
-        a{
-          text-decoration: none;
-          &.active{
-            background-color: lightgray;
-            color: rgb(0, 0, 0);
-          }
-        }
-      }
-  }
-}
-
-
 
 /***********************
  * Essential Structure *
  ***********************/
- .flexsearch--wrapper {
+.flexsearch--wrapper {
 	height: auto;
 	width: auto;
 	max-width: 100%;
@@ -168,6 +106,3 @@ input:-moz-placeholder {
   line-height: 45px;
   text-align: center;
 }
-
-
-

@@ -1,8 +1,20 @@
-const NavBar = () =>{
+
+
+
+const NavBar = () => {
 
     return (
-        <div className="navbar">
-            Navbar
+        <div>
+            <button>Aqui logo</button>
+            <div className="flex flex-row justify-between">
+                <div className="justify-between navbar text-xl">
+                    what do you want to do today?
+                </div>
+                <div className="justify-between" >
+                
+                </div>
+            </div>
+
         </div>
     )
 }

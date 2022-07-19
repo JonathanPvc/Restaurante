@@ -1,0 +1,38 @@
+
+
+
+.sidebar{
+    height: 100vh;
+    background-color: light;
+    width: 11rem;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    padding-left: 50px;
+    ul{
+      list-style: none;
+      padding: 1rem 2rem 9rem 1rem;
+      margin: 20px;
+        li{
+          display: flex;
+          margin-bottom: 4rem;
+          a{
+            
+            text-decoration: none;
+            &.active{
+              background-color: lightgray;
+              color: rgb(245, 243, 243);
+            }
+          }
+        }
+    }
+  }
+
+  .iconoo{
+    height: 40px;
+    background-color: rgb(241, 83, 83);
+    padding: 2px;
+    width: 50px;
+    border-radius: 8px;
+   
+  }
+  

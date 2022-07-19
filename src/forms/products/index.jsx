@@ -2,12 +2,16 @@ import React from "react";
 import { Formik } from "formik";
 import { ToggleCustom } from "../../components/Toogle";
 
-import "./styles.css";
+import "./styles.scss";
 
 const FormProduct = () => {
   return (
-    <Formik>
-      <form className="form-product__container">
+    <Formik
+      initialValues={{
+        precioUnit: undefined
+      }}
+    >
+      {props => (<form className="form-product__container">
         <h1 className="h1"> PRODUCTOS </h1>
         <div className="grid grid-cols-3 gap-5 form-product__container--forms  justify-center items-center">
           <div className="flex justify-between mb-5">
@@ -33,12 +37,17 @@ const FormProduct = () => {
 
             <ToggleCustom title="Bowl:" />
           </div>
-          <div className="flex justify-between mb-5">
-            <label htmlFor="precio unit">Precio unit: </label>
+          {console.log(props.values.precioUnit)}
+          <div className="flex justify-between mb-5 input-container">
+            <label htmlFor="precio unit" className={`${props.values.precioUnit ? 'input-label-active' : 'input-label'}`}>Precio unit: </label>
             <input
               type="number"
-              id="precio unit"
-              name="precio unit"
+              id="precio_unit"
+              name="precioUnit"
+              className="input-machine"
+              onChange={props.handleChange}
+              onBlur={props.handleBlur}
+              value={props.values.name}
               placeholder=" "
             ></input>
           </div>
@@ -88,7 +97,8 @@ const FormProduct = () => {
             ></input>
           </div>
         </div>
-      </form>
+      </form>)}
+
     </Formik>
   );
 };

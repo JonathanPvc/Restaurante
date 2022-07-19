@@ -11,7 +11,7 @@ export const RouterProvider = () =>{
         <Router>
         <Routes>
           {routeMap.map(item => (
-            <Route path={item.path} element={<Dashboard>{item.element}</Dashboard>} />
+            <Route key={item.path} path={item.path} element={<Dashboard>{item.element}</Dashboard>} />
           ))}
   
         </Routes>

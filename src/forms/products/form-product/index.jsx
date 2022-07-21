@@ -1,15 +1,8 @@
-import React from 'react'
-import "../products/styles.scss"
+import React from "react";
+import { Formik } from "formik";
+import { ToggleCustom } from "../../../components/Toogle";
 
-export const Add = ( {onClick }) => {
-  return (
-    <>
-      <button className= 'button-form' onClick={ onClick }>Add Product </button>
-    </>
-  )
-}
-
-import "./styles.scss";
+// import "./styles.scss";
 
 const FormProduct = () => {
   return (
@@ -110,3 +103,4 @@ const FormProduct = () => {
   );
 };
 
+export default FormProduct;

@@ -2,6 +2,7 @@ import Home from "../pages/Home";
 import Productos from "../pages/Products";
 import Category from '../pages/Category'
 import TypeOfLine from '../pages/TypeOfLine'
+import ProductCreate from "../pages/ProductCreate";
 
 
 export const routeMap = [
@@ -20,5 +21,9 @@ export const routeMap = [
     {
         path:'/typeofline',
         element: <TypeOfLine />
+    },
+    {
+        path:'/products/create',
+        element: <ProductCreate />
     }
 ]

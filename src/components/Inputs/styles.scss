@@ -1,54 +1,9 @@
 
-.button-form{
-  border-radius: 30px;
-  background-color: red;
-  border:solid;
-}
-
-
-.h1 {
-  margin-bottom: 2.5rem;
-  font-size: xx-large;
-}
-
-.form-product__container {
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: white;
-}
-
-.form-product__container--forms>div {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.form-product__container--forms>div>input {
-  border: solid;
-  border-radius: 50px;
-  background-color: transparent;
-  height: 40px;
-}
-
-.form-product__container--forms>div>label {
-  user-select: none;
-}
-
-/* input::placeholder{
-  color:red
-} */
-
-
-
 .input-container {
   position: relative;
-  
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .input-machine:active~.input-label {
@@ -56,6 +11,7 @@
 }
 .input-machine{
   padding-left: 10px;
+  background-color: transparent;
 }
 
 .input-label {
@@ -65,7 +21,7 @@
   width: 100px;
   margin: 0;
   padding: 0;
-  top: 30%;
+  top: 33%;
   font-size: 16px;
 
   -webkit-transition:top 1s ease, left 1s, font-size 2s ease, background-color 1s ease;
@@ -78,7 +34,7 @@
 .input-container:hover,
 .input-container:focus {
   .input-label {
-    top: 3px;
+    top: 10%;
     text-align: center;
     font-size: 12px;
     left: 10px;
@@ -86,14 +42,24 @@
   }
 }
 
+.input-container > input {
+  border: solid;
+  border-radius: 50px;
+  background-color: transparent;
+  height: 40px;
+}
+.input-container > label {
+  user-select: none;
+}
+
 .input-label-active {
   position: absolute;
   left: 10px;
   background-color: rgb(254, 215, 170 /1);
   width: 100px;
-  top: 3px;
+  top: 10%;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
   padding: 0;
 }

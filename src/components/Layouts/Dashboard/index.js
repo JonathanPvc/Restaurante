@@ -1,10 +1,11 @@
 import React from 'react'
 import Sidebar from '../../Sidebar/Sidebar';
+import './style.scss';
 
 export const Dashboard = ({ children }) => {
   return (
     <>
-        <div className='flex w-full bg-slate-50 h-screen'>
+        <div className='div-back flex w-full  h-screen'>
 
           <Sidebar />
           <div className='w-full p-5'>

@@ -2,7 +2,7 @@ import React from "react";
 import { Formik } from "formik";
 import { ToggleCustom } from "../../../components/Toogle";
 
-// import "./styles.scss";
+import "./styles.scss";
 
 const FormProduct = () => {
   return (

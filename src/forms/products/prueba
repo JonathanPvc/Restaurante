@@ -1,50 +1,102 @@
-import React from "react";
-import { Formik } from "formik";
 
-import './styles.css'
+//import React from "react";
 
-const FormProduct = () => {
-  return (
-    <div className="formik">
-      <h1 className=" bg-yellow-300">Productos</h1>
-      <Formik
-        initialValues={{ select: "Name" }}
-        onSubmit={(values, actions) => {
-          setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            actions.setSubmitting(false);
-          }, 1000);
-        }}
-      >
-        {(props) => (
-          <form onSubmit={props.handleSubmit}>
-            <label className="border-solid" for="prducto">
-              Selecciona un producto:{" "}
-            </label>
-            <select id="producto" defaultValue="" placeholder="vacio">
-              <option value="" disabled></option>
-              <optgroup label="Perro Caliente">
-                <option value="americano">Americano</option>
-                <option value="ranchero">Ranchero</option>
-              </optgroup>
-              <optgroup label="Hamburguesa">
-                <option value="pollo">Pollo</option>
-                <option value="doble carne">Doble carne</option>
-              </optgroup>
-            </select>
-            <br></br>
-            {props.errors.name && <div id="feedback">{props.errors.name}</div>}
-            <button
-              className="p-1 border rounded-sm border-black hover:border-indigo-300 border-solid "
-              type="submit"
-            >
-              Enviar
-            </button>
-          </form>
-        )}
-      </Formik>
-    </div>
-  );
-};
+//import { Formik } from "formik";
 
-export default FormProduct;
+//
+
+//import './styles.css'
+
+//
+
+//const FormProduct = () => {
+
+//  return (
+
+//<div className="formik">
+
+//      <h1 className=" bg-yellow-300">Productos</h1>
+
+//      <Formik
+
+//initialValues={{ select: "Name" }}
+
+//        onSubmit={(values, actions) => {
+
+//          setTimeout(() => {
+
+//            alert(JSON.stringify(values, null, 2));
+
+//            actions.setSubmitting(false);
+
+//          }, 1000);
+
+//        }}
+
+//>
+
+//        {(props) => (
+
+//<form onSubmit={props.handleSubmit}>
+
+//            <label className="border-solid" for="prducto">
+
+//              Selecciona un producto:{" "}
+
+//            </label>
+
+//            <select id="producto" defaultValue="" placeholder="vacio">
+
+//              <option value="" disabled></option>
+
+//              <optgroup label="Perro Caliente">
+
+//                <option value="americano">Americano</option>
+
+//                <option value="ranchero">Ranchero</option>
+
+//              </optgroup>
+
+//              <optgroup label="Hamburguesa">
+
+//                <option value="pollo">Pollo</option>
+
+//                <option value="doble carne">Doble carne</option>
+
+//              </optgroup>
+
+//            </select>
+
+//            <br></br>
+
+//            {props.errors.name && <div id="feedback">{props.errors.name}</div>}
+
+//            <button
+
+//className="p-1 border rounded-sm border-black hover:border-indigo-300 border-solid "
+
+//              type="submit"
+
+//>
+
+//              Enviar
+
+//            </button>
+
+//          </form>
+
+//)}
+
+//      </Formik>
+
+//    </div>
+
+//);
+
+//};
+
+//
+
+//export default FormProduct;
+
+//

@@ -1,15 +1,17 @@
-import FormProduct from "../forms/products";
-import {useNavigate} from 'react-router-dom'
-import { Add } from '../forms/products';
-import ProductCreate from "./ProductCreate";
 
+import { useNavigate } from 'react-router-dom'
+import { Add } from '../atom/AddProduct/Add';
 
+import TableProduct from "../organisms/TableProducts/TableProduct";
 
 const Products = () => {
     const navigate = useNavigate()
-    
-    return(
-            <Add onClick={()=> navigate('/products/create')} />
+
+    return (
+        <>
+            <Add onClick={() => navigate('/products/create')} />
+            <TableProduct />
+        </>
     )
 }
 

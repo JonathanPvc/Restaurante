@@ -7,20 +7,33 @@
     width: 11rem;
     padding-top : 20px;
     padding-bottom : 20px;
-    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     ul{
       list-style: none;
-      padding: 1rem 2rem 9rem 1rem;
-      margin: 20px;
+      width: 100%;
+      padding: 3rem 0px;
         li{
           display: flex;
-          margin-bottom: 4rem;
+      width: 100%;
+      margin-bottom: 2rem;
           a{
-            
+            display: flex;
+            flex-direction: column;
+      width: 100%;
+      justify-content: center;
+            align-items: center;
             text-decoration: none;
+            color: #5D4037;
+            text-align: center;
+
             &.active{
-              background-color: lightgray;
-              color: rgb(245, 243, 243);
+              color: #E53935;
+              svg{
+                color: #E53935
+              }
             }
           }
         }
@@ -28,11 +41,11 @@
   }
 
   .iconoo{
-    height: 40px;
-    background-color: rgb(241, 83, 83);
+    height: 25px;
     padding: 2px;
-    width: 50px;
+    width: 25px;
     border-radius: 8px;
+    color: #5D4037;
    
   }
   

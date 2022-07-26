@@ -26,14 +26,8 @@ const Sidebar = () => {
                     <NavLink to='/typeofline' className='rounded'><FontAwesomeIcon className='iconoo' icon={faCalendarCheck} />Type Of Line</NavLink>
                 </li>
             </ul>
+            <button className='rounded flex flex-col justify-center items-center'><FontAwesomeIcon className='iconoo' icon={faHome} />Off Line</button>
 
-            <div>
-                <ul>
-                    <li>
-                        <button className='rounded cursor'><FontAwesomeIcon className='iconoo' icon={faHome} />Home</button>
-                    </li>
-                </ul>
-            </div>
 
         </div>
     )

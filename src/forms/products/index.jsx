@@ -1,6 +1,6 @@
 import React from "react";
-import { ToggleCustom } from "../../../components/Toogle";
-import { InputCustom } from "../../../components/Inputs";
+import { ToggleCustom } from "../../components/Toogle";
+import { InputCustom } from "../../components/Inputs";
 import { useForm } from "react-hook-form";
 import "../styles.scss";
 

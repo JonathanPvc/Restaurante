@@ -43,12 +43,15 @@
 }
 
 .input-container > input {
+  color: black;
   border: solid;
   border-radius: 50px;
   background-color: transparent;
   height: 40px;
+  border-color: black;
 }
 .input-container > label {
+  color: black;
   user-select: none;
 }
 

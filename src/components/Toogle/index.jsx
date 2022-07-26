@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import './styles.css'
+import './styles.scss'
 
 export const ToggleCustom = (props) =>{
   const [checked, setChecked] = useState(true);
   const {
+    color,
     title,
     size = "default",
     enabled,

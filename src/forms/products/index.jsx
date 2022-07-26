@@ -3,7 +3,8 @@ import { ToggleCustom } from "../../components/Toogle";
 import { InputCustom } from "../../components/Inputs";
 import { useForm } from "react-hook-form";
 import "./styles.scss";
-
+import { Add } from '../../atom/AddProduct/Add';
+import { TextCustom} from '../../components/TextArea'
 
 
 const FormProduct = () => {
@@ -32,9 +33,11 @@ const FormProduct = () => {
           <InputCustom type="text" title="Descripcion" watch={watch} name="description" register={register} />
         </div>
         <div className="flex justify-between mb-5">
+          <div className="flex justify-between mb-5">
           <ToggleCustom title="Estatus:" />
 
           <ToggleCustom title="Bowl:" />
+          </div>
         </div>
         <div className="flex justify-between mb-5 input-container">
         <InputCustom type="number" title="Precio unit" watch={watch} name="precio-unit" register={register} />
@@ -56,6 +59,12 @@ const FormProduct = () => {
         <div className="flex justify-between mb-5">
         <InputCustom type="number" title="En stock" watch={watch} name="en-stock" register={register} />
 
+        </div>
+        <div>
+        <TextCustom placeholder="Descripcion" />
+        </div>
+        <div className="flex justify-between mb-5">
+        <Add />
         </div>
       </div>
     </form>

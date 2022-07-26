@@ -12,9 +12,7 @@
   .switch-wrapper.large > input[type="checkbox"]:checked + .switch {
     transform: translateX(50%) translateX(-35px);
   }
-  .switch-wrapper > input[type="checkbox"]:disabled + .switch {
-    background: rgb(255, 255, 255)
-  }
+
   
   .switch-wrapper {
     border-radius: 20px;
@@ -24,10 +22,6 @@
     overflow: hidden;
     position: relative;
     width: 60px;
-  }
-  .switch-wrapper.large {
-    height: 10px;
-    width: 80px;
   }
   .switch-wrapper > .switch {
     display: inline-block;
@@ -48,14 +42,6 @@
     width: 8px;
     z-index: 3;
   }
-  .switch-wrapper.large > .switch > .switch-handle {
-    height: 10px;
-    width: 30px;
-  }
-  .switch-wrapper.large + .switch-label {
-    line-height: 4rem;
-    margin-left: 15px;
-  }
   .btn-danger{
     background-color: red;
   }
@@ -63,4 +49,7 @@
     background-color: green;
   }
 
+  .switch-label{
+    color: black;
+  }
 

@@ -1,3 +1,4 @@
+import CardHome from "../atom/AddProduct/cardHome/CardHome";
 
 
 
@@ -5,7 +6,7 @@
 const Home = () => {
     return(
         <div>
-            <p >Home</p>
+            <CardHome />
         </div>
     )
 }

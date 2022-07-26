@@ -11,13 +11,13 @@ const data = [
     { id : 10, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
     { id : 11, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
     { id : 12, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
-    { id : 13, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
-    { id : 14, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
-    { id : 15, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
-    { id : 16, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
-    { id : 17, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
-    { id : 18, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
-    { id : 19, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    //{ id : 13, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    //{ id : 14, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    //{ id : 15, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    //{ id : 16, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    //{ id : 17, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    //{ id : 18, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    //{ id : 19, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
     
 ]
 
@@ -28,7 +28,7 @@ const data = [
         <>
         
            
-            <div>
+            <div className='tbackcolor'>
             <h1 className='h1'>Products</h1>
 
                 <table className='productTable'>

@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import * as FaIcons from 'react-icons/fa';
-import { faHome, faBurger } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faBurger, faPowerOff } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faCalendarCheck } from '@fortawesome/free-regular-svg-icons';
 
@@ -26,7 +25,7 @@ const Sidebar = () => {
                     <NavLink to='/typeofline' className='rounded'><FontAwesomeIcon className='iconoo' icon={faCalendarCheck} />Type Of Line</NavLink>
                 </li>
             </ul>
-            <button className='rounded flex flex-col justify-center items-center'><FontAwesomeIcon className='iconoo' icon={faHome} />Off Line</button>
+            <button className='rounded flex flex-col justify-center items-center'><FontAwesomeIcon icon={faPowerOff} />Off Line</button>
 
 
         </div>

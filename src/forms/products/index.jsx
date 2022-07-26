@@ -3,7 +3,8 @@ import { ToggleCustom } from "../../components/Toogle";
 import { InputCustom } from "../../components/Inputs";
 import { useForm } from "react-hook-form";
 import "./styles.scss";
-import { Add } from '../../atom/AddProduct/Add'
+import { Add } from '../../atom/AddProduct/Add';
+import { TextCustom} from '../../components/TextArea'
 
 
 const FormProduct = () => {
@@ -60,9 +61,11 @@ const FormProduct = () => {
 
         </div>
         <div>
-        <textarea className="holi" id="textareabox" color="black" name="textarea1" placeholder="Descripcion.. "></textarea>
+        <TextCustom placeholder="Descripcion" />
         </div>
+        <div className="flex justify-between mb-5">
         <Add />
+        </div>
       </div>
     </form>
   );

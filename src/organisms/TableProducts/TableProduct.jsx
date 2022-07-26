@@ -7,7 +7,17 @@ const data = [
     { id : 5, name : 'sanwich', priceUnit : 40.000, priceCost : 6000, discont : '2%', unit: 5 },
     { id : 6, name : 'pizza', priceUnit : 50.000, priceCost : 6000, discont : '10%', unit: 5 },
     { id : 7, name : 'meat', priceUnit : 60.000, priceCost : 6000, discont : '5%', unit: 5 },
-    { id : 8, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 9, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 10, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 11, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 12, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 13, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 14, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 15, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 16, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 17, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 18, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
+    { id : 19, name : 'chicken', priceUnit : 70.000, priceCost : 6000, discont : '9%', unit: 5 },
     
 ]
 

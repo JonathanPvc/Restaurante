@@ -1,4 +1,4 @@
-import FormTypes from "../forms/types";
+import FormTypes from "../../forms/types";
 
 
 

@@ -1,8 +1,8 @@
-import Home from "../pages/Home";
-import Productos from "../pages/Products";
-import Category from '../pages/Category'
-import TypeOfLine from '../pages/TypeOfLine'
-import ProductCreate from "../pages/ProductCreate";
+import Home from "../pages/Home/Home.js";
+import Productos from "../pages/Products/Products";
+import Category from '../pages/Category/Category'
+import TypeOfLine from '../pages/TypeOfLine/TypeOfLine'
+import ProductCreate from "../pages/ProductCreate/index"
 
 
 export const routeMap = [

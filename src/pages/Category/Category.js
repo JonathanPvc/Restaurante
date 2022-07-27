@@ -1,4 +1,4 @@
-import FormCategories from "../forms/categories";
+import FormCategories from "../../forms/categories";
 
 
 

@@ -23,7 +23,7 @@ const data = [
         
            
             <div className='tbackcolor'>
-            <h1 className='h1'>Products</h1>
+            <h1 className='h1Tittle'> List Products</h1>
 
                 <table className='productTable'>
                     <thead>

@@ -9,7 +9,7 @@ export const Dashboard = ({ children }) => {
 
           <Sidebar />
           <div className='w-full p-5'>
-            <div className='bg-orange-200 h-full rounded-3xl p-5'>
+            <div className='childrenClass h-full rounded-3xl p-5'>
               {children}
               
             </div>

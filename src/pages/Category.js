@@ -1,10 +1,11 @@
+import FormCategories from "../forms/categories";
 
 
 
 const Category = () => {
     return(
         <div>
-            <p  >Category</p>
+            <FormCategories />
         </div>
     )
 }

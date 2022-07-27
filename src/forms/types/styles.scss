@@ -21,7 +21,7 @@
   font-size: xx-large;
 }
 
-.form-product__container {
+.form-types__container {
   width: 100%;
   height: 100%;
   background-position: center;
@@ -33,20 +33,20 @@
   color: white;
 }
 
-.form-product__container--forms>div {
+.form-types__container--forms>div {
   height: 100%;
   display: flex;
   align-items: center;
 }
 
-.form-product__container--forms>div>input {
+.form-types__container--forms>div>input {
   border: solid;
   border-radius: 50px;
   background-color: transparent;
   height: 40px;
 }
 
-.form-product__container--forms>div>label {
+.form-types__container--forms>div>label {
   user-select: none;
 }
 

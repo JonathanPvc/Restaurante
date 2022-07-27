@@ -23,7 +23,7 @@ const FormProduct = () => {
       className="form-product__container"
       onSubmit={handleSubmit((data) => console.log(data))}
     >
-      <h1 className="h1"> PRODUCTS </h1>
+      <h1 className="h1-products"> PRODUCTS </h1>
       <div className="grid grid-cols-3 gap-5 form-product__container--forms  justify-center items-center">
         <div className="flex justify-between mb-5">
         <InputCustom type="text" title="Nombre" watch={watch} name="name" register={register} />

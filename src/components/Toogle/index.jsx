@@ -4,7 +4,6 @@ import './styles.scss'
 export const ToggleCustom = (props) =>{
   const [checked, setChecked] = useState(true);
   const {
-    color,
     title,
     size = "default",
     enabled,

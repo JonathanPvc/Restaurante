@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "food-c7630"
+  },
+  "targets": {
+    "food-c7630": {
+      "hosting": {
+        "dashboard": [
+          "food-c7630"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

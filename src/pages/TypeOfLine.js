@@ -1,10 +1,11 @@
+import FormTypes from "../forms/types";
 
 
 
 const TypeOfLine = () => {
     return(
         <div>
-            <p>TypeOfLine</p>
+            <FormTypes />
         </div>
     )
 }

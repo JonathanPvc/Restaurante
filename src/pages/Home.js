@@ -1,4 +1,4 @@
-import CardHome from "../atom/AddProduct/cardHome/CardHome";
+import CardHome from "../atom/cardHome/";
 
 
 

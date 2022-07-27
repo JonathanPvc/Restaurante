@@ -26,13 +26,13 @@
       justify-content: center;
             align-items: center;
             text-decoration: none;
-            color: #5D4037;
+            color: #ffffff;
             text-align: center;
 
             &.active{
-              color: #E53935;
+              color: #b30101;
               svg{
-                color: #E53935
+                color: #b30101
               }
             }
           }
@@ -45,7 +45,7 @@
     padding: 2px;
     width: 25px;
     border-radius: 8px;
-    color: #5D4037;
+    color: #ffffff;
    
   }
   

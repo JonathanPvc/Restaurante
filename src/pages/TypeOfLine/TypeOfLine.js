@@ -1,4 +1,5 @@
 import FormTypes from "../../forms/types";
+import './style.scss';
 
 
 

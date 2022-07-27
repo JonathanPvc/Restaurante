@@ -27,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "firebase:config": "firebase target:apply hosting dashboard food-c7630",
+    "firebase:deploy": "npm run build && firebase deploy --only hosting:dashboard"
   },
   "eslintConfig": {
     "extends": [

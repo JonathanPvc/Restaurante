@@ -1,8 +1,8 @@
-  import './style.scss';
+import './style.scss';
   
   
   export const InputG = (props) => {
-    const{title,type,watch,register,name}= props;
+    const{title,type,register,name}= props;
   
     return (
       <div className="AppStyle" >

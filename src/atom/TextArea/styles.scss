@@ -1,15 +1,16 @@
 .custom-textarea {
-  border-radius: 20px;
-  border: solid;
+  color:black;
   background-color: transparent;
-  color: black;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  box-shadow: 1px 1px 6px gray;
   resize: none;
-  width: 100%;
-  padding: 12px;
-  line-height: 10px;
-  border-color: black;
   outline: none;
-  padding-left: 10px;
-  height: 40px;
   overflow: hidden;
+  
 }
